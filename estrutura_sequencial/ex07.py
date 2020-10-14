@@ -1,4 +1,4 @@
-base = int(input('digite o valor da base:'))
-altura = int(input('digite o valor da altura:'))
+base = float(input('Digite o valor da base:'))
+altura = float(input('Digite o valor da altura:'))
 area = base * altura *2
-print (f' o dobro da area do quadrado e:',area)
+print (f' O dobro da area do quadrado e: %.2f' % (area))
