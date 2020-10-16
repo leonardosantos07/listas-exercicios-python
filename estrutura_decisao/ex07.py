@@ -6,4 +6,10 @@ if (num2 > maior):
     maior = num2
 if (num3 > maior):
     maior = num3
-print (f' O número {maior} é o maior.')
+
+menor = num1
+if (num2 < menor):
+    menor = num2
+if (num3 < menor):
+    menor = num3
+print(f' O número {maior} é maior, e o número {menor} é menor.')
