@@ -7,29 +7,32 @@
 #Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário;
 
 import math
+
+def bhaskara(a, b, delta):
+    x1 = ((-1)*b + math.sqrt(delta)) /(2*a)
+    x2 = ((-1)*b - math.sqrt(delta)) /(2*a)
+    return x1, x2
+
 print('De a,b e c para calcular uma equação do segundo na forma ax² + bx + c')
 a = float(input('digite o valor de a:'))
 if a == 0:
     print ('não exite equação: encerrado')
 else:
-    c = float(input('digite o valor de c:'))
     b = float(input('digite o valor de b:'))
+    c = float(input('digite o valor de c:'))
     delta = (math.pow(b,2) - 4 * a * c)
     if delta < 0:
-        print ('o delta é menor do que zero, então, não existem raízes reais para a equação.')
+        #a=1 ,b =2, c=5
+        print (f'o delta ({delta:.2f}) é menor do que zero, então não existem raízes reais para a equação.')
     elif delta == 0:
-        print ('o delta é igual a zero, a equação possui apenas uma raiz real.')
-    elif delta > 0:
-        print ('o delta é positivo, a equação possui duas raizes reais.')
+        #a=4, b=-4, c=1
+        raiz1, raiz2 = bhaskara(a, b, delta)
+        print (f'o delta é igual a zero, a equação possui apenas uma raiz real: {raiz1:.2f}.')
     else:
-        raiz = ((-1)*b + math.sqrt(delta))/(2*a)
-x1 = ((-1)*b + math.sqrt(delta)) /(2*a)
-x2 = ((-1)*b - math.sqrt(delta)) /(2*a)
-print(f'''
-O x1 da questão é:{x1}
-O x2 da questão é:{x2}
-''')
-
-
-se eu digitar 0 da erro
-não importa o valor que eu coloque da -1 e -2 e diz que a raiz é real 
+        #a=1, b=5, c=-24
+        print ('o delta é positivo, a equação possui duas raizes reais.')
+        raiz1, raiz2 = bhaskara(a, b, delta)
+        print(f'''
+        O x1 da questão é:{raiz1}
+        O x2 da questão é:{raiz2}
+        ''')
