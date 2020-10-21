@@ -1,7 +1,17 @@
 #Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
+dia = int(input('digite o dia:'))
+mes = int(input('digite o mes:'))
+ano = int(input('difite o ano:'))
 
-mes = int(input('digite o numero referente ao mes:'))
-dia = int(input('digite o numero referente ao dia:'))
-ano = int(input('difite o numero referente ao ano:'))
+if dia==1 >= 31:
+    print('verdadeiro')
+elif mes==1 >= 12:
+    print('verdadeiro')
+elif ano==0 >= 3000:
+    print('verdadeiro')
+else:
+    print('Inválida')
 
-if dia >= 1 and dia <= 31
+
+
+dando invalido em qualquer data

@@ -1,6 +1,3 @@
-#ex12
-#Faça um programa para o cálculo de uma folha de pagamento, sabendo que os descontos são do
-
 valor_hora = float(input('Informe o quanto você ganha por horas trabalhadas?:'))
 horas_mes = float(input('Informe quantas horas você trabalhou no mes?:'))
 salario_bruto = valor_hora * horas_mes
