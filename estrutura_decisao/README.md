@@ -1,17 +1,26 @@
 EstruturaDeDecisao
 
 1. Faça um Programa que peça dois números e imprima o maior deles.
+
 2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
 3. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+
 4. Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+
 5. Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
      A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
      A mensagem "Reprovado", se a média for menor do que sete;
      A mensagem "Aprovado com Distinção", se a média for igual a dez.
+
 6. Faça um Programa que leia três números e mostre o maior deles.
+
 7. Faça um Programa que leia três números e mostre o maior e o menor deles.
+
 8. Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+
 9. Faça um Programa que leia três números e mostre-os em ordem decrescente.
+
 10. Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
 
 11. As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
@@ -42,6 +51,7 @@ EstruturaDeDecisao
             Salário Liquido                 : R$  935,00
 
 13. Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+
 14. Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
 
       Média de Aproveitamento  Conceito
@@ -69,14 +79,16 @@ EstruturaDeDecisao
     d. Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário;
 
 17. Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
+
 18. Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
+
 19. Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo.
 
     Observando os termos no plural a colocação do "e", da vírgula entre outros. Exemplo:
     * 326 = 3 centenas, 2 dezenas e 6 unidades
     * 12 = 1 dezena e 2 unidades Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
 
-20. Faça um Programa para leitura de três notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e presentar:
+20. Faça um Programa para leitura de três notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
 
     a. A mensagem "Aprovado", se a média for maior ou igual a 7, com a respectiva média alcançada;
     b. A mensagem "Reprovado", se a média for menor do que 7, com a respectiva média alcançada;
@@ -88,7 +100,9 @@ EstruturaDeDecisao
     b. Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
 
 22. Faça um Programa que peça um número inteiro e determine se ele é par ou impar. Dica: utilize o operador módulo (resto da divisão).
+
 23. Faça um Programa que peça um número e informe se o número é inteiro ou decimal. Dica: utilize uma função de arredondamento.
+
 24. Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
 
     a. par ou ímpar;

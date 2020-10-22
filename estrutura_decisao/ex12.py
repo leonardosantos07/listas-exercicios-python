@@ -26,5 +26,5 @@ IR                  R$ {ir:.2f}
 INSS                R$ {inss:.2f}
 Sindicato           R$ {sindicato:.2f}
 Total de descontos  R$ {(inss + sindicato + ir):.2f}
-Salario liquido     R${(salario_bruto - (inss + sindicato + ir)):.2f}
+Salario liquido     R$ {(salario_bruto - (inss + sindicato + ir)):.2f}
 ''')
